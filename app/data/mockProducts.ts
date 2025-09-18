@@ -1,5 +1,3 @@
-// app/data/mockProducts.ts
-
 import { Product } from '../types';
 
 export const mockProducts: Product[] = [
@@ -14,7 +12,7 @@ export const mockProducts: Product[] = [
     isHot: true,
     colors: ['#0000FF', '#FF0000', '#00FF00'],
     category: 'Sneakers',
-    imageUrl: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_1521,c_limit/0abdb42b-3702-484d-8c07-6fc876cd16dd/what-are-the-best-nike-basketball-shoes.jpg', // You'll add images to the /public folder later
+    imageUrl: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_1521,c_limit/0abdb42b-3702-484d-8c07-6fc876cd16dd/what-are-the-best-nike-basketball-shoes.jpg', 
   },
   {
     id: 2,
@@ -88,7 +86,7 @@ export const mockProducts: Product[] = [
     isHot: true,
     colors: ['#0000FF', '#FF0000', '#00FF00'],
     category: 'Sneakers',
-    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1695ffac-5ce4-4a8f-ba86-e0da859595ee/PEGASUS+PREMIUM+SP.png', // You'll add images to the /public folder later
+    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1695ffac-5ce4-4a8f-ba86-e0da859595ee/PEGASUS+PREMIUM+SP.png', 
   },
   {
     id: 8,
@@ -125,7 +123,7 @@ export const mockProducts: Product[] = [
     isHot: true,
     colors: ['#0000FF', '#FF0000', '#00FF00'],
     category: 'Sneakers',
-    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/64bf6a02-62db-4b07-99b5-da0f803261dd/LBJ+NXXT+GENISUS+QS+EP.png', // You'll add images to the /public folder later
+    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/64bf6a02-62db-4b07-99b5-da0f803261dd/LBJ+NXXT+GENISUS+QS+EP.png', 
   },
   {
     id: 11,
@@ -162,7 +160,7 @@ export const mockProducts: Product[] = [
     isHot: true,
     colors: ['#0000FF', '#FF0000', '#00FF00'],
     category: 'Sneakers',
-    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/af12392a-97af-4af7-8528-c737ccc38e0e/M+NIKE+METCON+10+AMP.png', // You'll add images to the /public folder later
+    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/af12392a-97af-4af7-8528-c737ccc38e0e/M+NIKE+METCON+10+AMP.png', 
   },
   {
     id: 14,
@@ -199,7 +197,7 @@ export const mockProducts: Product[] = [
     isHot: true,
     colors: ['#0000FF', '#FF0000', '#00FF00'],
     category: 'Sneakers',
-    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/537c3e5c-e369-47b0-9e4f-a1730f1548e7/ZOOMX+STREAKFLY+2.png', // You'll add images to the /public folder later
+    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/537c3e5c-e369-47b0-9e4f-a1730f1548e7/ZOOMX+STREAKFLY+2.png', 
   },
   {
     id: 17,
@@ -236,7 +234,7 @@ export const mockProducts: Product[] = [
     isHot: true,
     colors: ['#0000FF', '#FF0000', '#00FF00'],
     category: 'Sneakers',
-    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e8f07d08-68e6-4b69-901d-adea378746b3/AIR+JORDAN+12+RETRO.png', // You'll add images to the /public folder later
+    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e8f07d08-68e6-4b69-901d-adea378746b3/AIR+JORDAN+12+RETRO.png', 
   },
   {
     id: 20,

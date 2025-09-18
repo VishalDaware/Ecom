@@ -2,14 +2,10 @@ import path from "path";
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Ensure Turbopack uses the project directory as the workspace root.
-  // This avoids the warning about Next.js inferring a parent workspace root
-  // when multiple lockfiles exist on the machine.
   turbopack: {
     root: path.resolve(__dirname),
   },
 
-  // Added this block to allow images from 'placehold.co'
   images: {
     remotePatterns: [
       {
@@ -20,7 +16,7 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'static.nike.com', // <-- The correct hostname
+        hostname: 'static.nike.com', 
         port: '',
         pathname: '/**',
       },
@@ -29,3 +25,4 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+//ddfdfddfdf

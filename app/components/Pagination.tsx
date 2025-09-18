@@ -1,4 +1,3 @@
-// app/components/Pagination.tsx
 'use client';
 
 interface PaginationProps {
@@ -8,10 +7,7 @@ interface PaginationProps {
 }
 
 export const Pagination = ({ currentPage, totalPages, onPageChange }: PaginationProps) => {
-  // Create an array of page numbers to map over, e.g., [1, 2, 3, ...]
   const pages = Array.from({ length: totalPages }, (_, i) => i + 1);
-
-  // Don't render pagination if there's only one page
   if (totalPages <= 1) {
     return null;
   }
