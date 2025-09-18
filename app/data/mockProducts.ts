@@ -27,7 +27,7 @@ export const mockProducts: Product[] = [
     isHot: true,
     colors: ['#FFFFFF', '#000000'],
     category: 'Sneakers',
-    imageUrl: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_1521,c_limit/0abdb42b-3702-484d-8c07-6fc876cd16dd/what-are-the-best-nike-basketball-shoes.jpg',
+    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/17520ed8-4209-4962-8cab-8bc33cf007a4/NIKE+AVA+ROVER.png',
   },
   {
     id: 3,
@@ -51,7 +51,7 @@ export const mockProducts: Product[] = [
     isHot: true,
     colors: ['#0000FF', '#FF0000', '#00FF00'],
     category: 'Sneakers',
-    imageUrl: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_1521,c_limit/0abdb42b-3702-484d-8c07-6fc876cd16dd/what-are-the-best-nike-basketball-shoes.jpg', // You'll add images to the /public folder later
+    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a80d1905-5296-4aa9-855a-1d617e3c98f6/AIR+FORCE+1+LOW+RETRO+PRM.png', 
   },
   {
     id: 5,
@@ -64,7 +64,7 @@ export const mockProducts: Product[] = [
     isHot: false,
     colors: ['#FFFFFF', '#000000'],
     category: 'Sneakers',
-    imageUrl: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_1521,c_limit/0abdb42b-3702-484d-8c07-6fc876cd16dd/what-are-the-best-nike-basketball-shoes.jpg',
+    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ab9e6fa9-4f2f-4aa1-ad84-774c20ad0ba4/AIR+FORCE+1+LOW+RETRO+PRM.png',
   },
   {
     id: 6,
@@ -75,7 +75,7 @@ export const mockProducts: Product[] = [
     isHot: true,
     colors: ['#000000', '#FFC0CB'],
     category: 'Sneakers',
-    imageUrl: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_1521,c_limit/0abdb42b-3702-484d-8c07-6fc876cd16dd/what-are-the-best-nike-basketball-shoes.jpg',
+    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/8402dfb2-01b5-4b10-bffb-742d6e327d9b/NIKE+AVA+ROVER.png',
   },
   {
     id: 7,
@@ -88,7 +88,7 @@ export const mockProducts: Product[] = [
     isHot: true,
     colors: ['#0000FF', '#FF0000', '#00FF00'],
     category: 'Sneakers',
-    imageUrl: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_1521,c_limit/0abdb42b-3702-484d-8c07-6fc876cd16dd/what-are-the-best-nike-basketball-shoes.jpg', // You'll add images to the /public folder later
+    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/1695ffac-5ce4-4a8f-ba86-e0da859595ee/PEGASUS+PREMIUM+SP.png', // You'll add images to the /public folder later
   },
   {
     id: 8,
@@ -101,7 +101,7 @@ export const mockProducts: Product[] = [
     isHot: false,
     colors: ['#FFFFFF', '#000000'],
     category: 'Sneakers',
-    imageUrl: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_1521,c_limit/0abdb42b-3702-484d-8c07-6fc876cd16dd/what-are-the-best-nike-basketball-shoes.jpg',
+    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2270198b-76af-479a-a8cc-7470a9a4669b/NIKE+SB+DUNK+LOW+PRO+PRM.png',
   },
   {
     id: 9,
@@ -112,7 +112,7 @@ export const mockProducts: Product[] = [
     isHot: true,
     colors: ['#000000', '#FFC0CB'],
     category: 'Sneakers',
-    imageUrl: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_1521,c_limit/0abdb42b-3702-484d-8c07-6fc876cd16dd/what-are-the-best-nike-basketball-shoes.jpg',
+    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b3fd6b51-9701-421a-bb7f-53d60728c276/TOTAL+90+PRM.png',
   },
   {
     id: 10,
@@ -125,7 +125,7 @@ export const mockProducts: Product[] = [
     isHot: true,
     colors: ['#0000FF', '#FF0000', '#00FF00'],
     category: 'Sneakers',
-    imageUrl: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_1521,c_limit/0abdb42b-3702-484d-8c07-6fc876cd16dd/what-are-the-best-nike-basketball-shoes.jpg', // You'll add images to the /public folder later
+    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/64bf6a02-62db-4b07-99b5-da0f803261dd/LBJ+NXXT+GENISUS+QS+EP.png', // You'll add images to the /public folder later
   },
   {
     id: 11,
@@ -138,7 +138,7 @@ export const mockProducts: Product[] = [
     isHot: true,
     colors: ['#FFFFFF', '#000000'],
     category: 'Sneakers',
-    imageUrl: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_1521,c_limit/0abdb42b-3702-484d-8c07-6fc876cd16dd/what-are-the-best-nike-basketball-shoes.jpg',
+    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a2fcd201-82f3-43e4-a268-7f0d26f2a8e8/AIR+JORDAN+1+LOW+SE.png',
   },
   {
     id: 12,
@@ -149,7 +149,7 @@ export const mockProducts: Product[] = [
     isHot: true,
     colors: ['#000000', '#FFC0CB'],
     category: 'Sneakers',
-    imageUrl: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_1521,c_limit/0abdb42b-3702-484d-8c07-6fc876cd16dd/what-are-the-best-nike-basketball-shoes.jpg',
+    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ab581537-fbd1-41c8-bded-200fa4f49db0/NIKE+VOMERO+PLUS.png',
   },
   {
     id: 13,
@@ -162,7 +162,7 @@ export const mockProducts: Product[] = [
     isHot: true,
     colors: ['#0000FF', '#FF0000', '#00FF00'],
     category: 'Sneakers',
-    imageUrl: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_1521,c_limit/0abdb42b-3702-484d-8c07-6fc876cd16dd/what-are-the-best-nike-basketball-shoes.jpg', // You'll add images to the /public folder later
+    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/af12392a-97af-4af7-8528-c737ccc38e0e/M+NIKE+METCON+10+AMP.png', // You'll add images to the /public folder later
   },
   {
     id: 14,
@@ -175,7 +175,7 @@ export const mockProducts: Product[] = [
     isHot: false,
     colors: ['#FFFFFF', '#000000'],
     category: 'Sneakers',
-    imageUrl: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_1521,c_limit/0abdb42b-3702-484d-8c07-6fc876cd16dd/what-are-the-best-nike-basketball-shoes.jpg',
+    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/21f56016-2e59-4392-b80f-c9440573f798/ZOOMX+VAPORFLY+NEXT%25+4.png',
   },
   {
     id: 15,
@@ -186,7 +186,7 @@ export const mockProducts: Product[] = [
     isHot: true,
     colors: ['#000000', '#FFC0CB'],
     category: 'Sneakers',
-    imageUrl: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_1521,c_limit/0abdb42b-3702-484d-8c07-6fc876cd16dd/what-are-the-best-nike-basketball-shoes.jpg',
+    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/01870679-4366-4262-a6e8-f2b8a52860f0/NIKE+VOMERO+18.png',
   },
   {
     id: 16,
@@ -199,7 +199,7 @@ export const mockProducts: Product[] = [
     isHot: true,
     colors: ['#0000FF', '#FF0000', '#00FF00'],
     category: 'Sneakers',
-    imageUrl: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_1521,c_limit/0abdb42b-3702-484d-8c07-6fc876cd16dd/what-are-the-best-nike-basketball-shoes.jpg', // You'll add images to the /public folder later
+    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/537c3e5c-e369-47b0-9e4f-a1730f1548e7/ZOOMX+STREAKFLY+2.png', // You'll add images to the /public folder later
   },
   {
     id: 17,
@@ -212,7 +212,7 @@ export const mockProducts: Product[] = [
     isHot: false,
     colors: ['#FFFFFF', '#000000'],
     category: 'Sneakers',
-    imageUrl: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_1521,c_limit/0abdb42b-3702-484d-8c07-6fc876cd16dd/what-are-the-best-nike-basketball-shoes.jpg',
+    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/a70da0b2-331c-4a97-8e91-99cbe7e32971/NIKE+SHOX+R4+SE.png',
   },
   {
     id: 18,
@@ -223,7 +223,7 @@ export const mockProducts: Product[] = [
     isHot: true,
     colors: ['#000000', '#FFC0CB'],
     category: 'Sneakers',
-    imageUrl: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_1521,c_limit/0abdb42b-3702-484d-8c07-6fc876cd16dd/what-are-the-best-nike-basketball-shoes.jpg',
+    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/76b83539-abda-4e00-af81-a16f337ba5d6/JORDAN+ZION+4+PF.png',
   },
   {
     id: 19,
@@ -236,7 +236,7 @@ export const mockProducts: Product[] = [
     isHot: true,
     colors: ['#0000FF', '#FF0000', '#00FF00'],
     category: 'Sneakers',
-    imageUrl: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_1521,c_limit/0abdb42b-3702-484d-8c07-6fc876cd16dd/what-are-the-best-nike-basketball-shoes.jpg', // You'll add images to the /public folder later
+    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e8f07d08-68e6-4b69-901d-adea378746b3/AIR+JORDAN+12+RETRO.png', // You'll add images to the /public folder later
   },
   {
     id: 20,
@@ -249,7 +249,7 @@ export const mockProducts: Product[] = [
     isHot: false,
     colors: ['#FFFFFF', '#000000'],
     category: 'Sneakers',
-    imageUrl: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_1521,c_limit/0abdb42b-3702-484d-8c07-6fc876cd16dd/what-are-the-best-nike-basketball-shoes.jpg',
+    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/81d10257-65bc-45c1-8970-5449316928c6/AIR+JORDAN+1+RETRO+HIGH+OG.png',
   },
   {
     id: 21,
@@ -260,7 +260,7 @@ export const mockProducts: Product[] = [
     isHot: true,
     colors: ['#000000', '#FFC0CB'],
     category: 'Sneakers',
-    imageUrl: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_1521,c_limit/0abdb42b-3702-484d-8c07-6fc876cd16dd/what-are-the-best-nike-basketball-shoes.jpg',
+    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/bb72c5b8-6d9e-48cd-89d8-d4ad83dcc579/JORDAN+MVP+92.png',
   },
   {
     id: 22,
@@ -273,7 +273,7 @@ export const mockProducts: Product[] = [
     isHot: false,
     colors: ['#FFFFFF', '#000000'],
     category: 'Sneakers',
-    imageUrl: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_1521,c_limit/0abdb42b-3702-484d-8c07-6fc876cd16dd/what-are-the-best-nike-basketball-shoes.jpg',
+    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0abd1ece-612d-4c06-b21d-a8f3d8fa7901/AIR+JORDAN+1+LOW.png',
   },
   {
     id: 23,
@@ -284,7 +284,7 @@ export const mockProducts: Product[] = [
     isHot: true,
     colors: ['#000000', '#FFC0CB'],
     category: 'Sneakers',
-    imageUrl: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_1521,c_limit/0abdb42b-3702-484d-8c07-6fc876cd16dd/what-are-the-best-nike-basketball-shoes.jpg',
+    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/476771a5-d33d-4a13-a16b-804b1d650e67/AIR+JORDAN+1+RETRO+HIGH+OG.png',
   },
   {
     id: 24,
@@ -297,7 +297,7 @@ export const mockProducts: Product[] = [
     isHot: false,
     colors: ['#FFFFFF', '#000000'],
     category: 'Sneakers',
-    imageUrl: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_1521,c_limit/0abdb42b-3702-484d-8c07-6fc876cd16dd/what-are-the-best-nike-basketball-shoes.jpg',
+    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b249d6f6-6836-4437-8f9e-1bd459fa36f8/AIR+JORDAN+1+LOW+EASYON.png',
   },
   {
     id: 25,
@@ -308,7 +308,7 @@ export const mockProducts: Product[] = [
     isHot: true,
     colors: ['#000000', '#FFC0CB'],
     category: 'Sneakers',
-    imageUrl: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_1521,c_limit/0abdb42b-3702-484d-8c07-6fc876cd16dd/what-are-the-best-nike-basketball-shoes.jpg',
+    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8613a2ef-1807-4d8a-864f-6670972d3bd5/JORDAN+CMFT+ERA.png',
   },
   {
     id: 26,
@@ -321,7 +321,7 @@ export const mockProducts: Product[] = [
     isHot: false,
     colors: ['#FFFFFF', '#000000'],
     category: 'Sneakers',
-    imageUrl: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_1521,c_limit/0abdb42b-3702-484d-8c07-6fc876cd16dd/what-are-the-best-nike-basketball-shoes.jpg',
+    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e3d70c0a-794f-4483-aef9-3622c9eaa837/AIR+JORDAN+LEGACY+312+LOW.png',
   },
   {
     id: 27,
@@ -332,7 +332,7 @@ export const mockProducts: Product[] = [
     isHot: true,
     colors: ['#000000', '#FFC0CB'],
     category: 'Sneakers',
-    imageUrl: 'https://static.nike.com/a/images/f_auto/dpr_1.3,cs_srgb/h_1521,c_limit/0abdb42b-3702-484d-8c07-6fc876cd16dd/what-are-the-best-nike-basketball-shoes.jpg',
+    imageUrl: 'https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ab269e93-27c2-47c7-859c-33993862d2a2/JORDAN+TATUM+3+PF.png',
   }
   
 ];

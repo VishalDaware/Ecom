@@ -3,58 +3,66 @@
 
 import { Search, ShoppingBag, User, Menu } from 'lucide-react';
 
-// Define the props the component will accept
 interface NavbarProps {
   onMenuClick: () => void;
 }
 
 export const Navbar = ({ onMenuClick }: NavbarProps) => {
   return (
-    <header className="border-b">
+    // Main header with floating glass effect
+    <header className="sticky top-0 bg-white/80 backdrop-blur-md z-30 border-b border-gray-200/70">
       <div className="container mx-auto px-4">
-        {/* Top bar with contact info and login */}
-        <div className="flex justify-between items-center py-2 text-sm text-gray-600">
-          <div>
-            <span>EN</span>
-            <span className="ml-2">USD</span>
-          </div>
+        <div className="flex justify-between items-center py-5">
+          
+          {/* Left side: Mobile Menu and Logo */}
           <div className="flex items-center gap-4">
-            <a href="#" className="flex items-center gap-1">
-              <User size={16} /> Profile
-            </a>
-            <a href="#" className="flex items-center gap-1">
-              <ShoppingBag size={16} /> Items
-            </a>
-            <span className="text-gray-400">$0.00</span>
-            <Search size={16} className="cursor-pointer" />
+            <button onClick={onMenuClick} className="lg:hidden text-gray-700">
+              <Menu size={24} />
+            </button>
+            <h1 className="text-3xl font-extrabold text-gray-900 tracking-tight">E-Comm</h1>
           </div>
-        </div>
-      </div>
-      
-      <div className="border-t">
-        <div className="container mx-auto px-4 flex justify-between items-center py-4">
-          
-          {/* Hamburger Menu Icon: Visible only on small screens (lg:hidden) */}
-          <button onClick={onMenuClick} className="lg:hidden p-2">
-            <Menu size={24} />
-          </button>
 
-          <h1 className="text-2xl font-bold text-blue-600">E-Comm</h1>
-          
-          {/* Main Navigation: Hidden on small screens (hidden), visible on large (lg:flex) */}
-          <nav className="hidden lg:flex gap-6 font-semibold text-gray-800">
-            <a href="#" className="hover:text-blue-500">HOME</a>
-            <a href="#" className="hover:text-blue-500">BAGS</a>
-            <a href="#" className="hover:text-blue-500">SNEAKERS</a>
-            <a href="#" className="hover:text-blue-500">BELT</a>
-            <a href="#" className="hover:text-blue-500">CONTACT</a>
+          {/* Center: Main Navigation with animated underline */}
+          <nav className="hidden lg:flex gap-10 font-semibold text-gray-700">
+            <a href="#" className="relative group">
+              <span>HOME</span>
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-black transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href="#" className="relative group">
+              <span>BAGS</span>
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-black transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href="#" className="relative group">
+              <span>SNEAKERS</span>
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-black transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href="#" className="relative group">
+              <span>BELT</span>
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-black transition-all duration-300 group-hover:w-full"></span>
+            </a>
+            <a href="#" className="relative group">
+              <span>CONTACT</span>
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-black transition-all duration-300 group-hover:w-full"></span>
+            </a>
           </nav>
 
-          {/* Spacer to balance the layout on large screens when the menu icon is hidden */}
-          <div className="hidden lg:block w-8"></div>
+          {/* Right side: User Actions with circular hover effect */}
+          <div className="flex items-center gap-3 text-gray-600">
+            <button className="p-2 rounded-full hover:bg-gray-200/70 transition-colors">
+              <Search size={22} />
+            </button>
+            <button className="p-2 rounded-full hover:bg-gray-200/70 transition-colors">
+              <User size={22} />
+            </button>
+            <button className="flex items-center gap-2 p-2 rounded-full hover:bg-gray-200/70 transition-colors">
+              <ShoppingBag size={22} />
+              <span className="text-sm font-bold">$0.00</span>
+            </button>
+          </div>
 
         </div>
       </div>
     </header>
   );
 };
+

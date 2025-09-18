@@ -24,7 +24,7 @@ export const Pagination = ({ currentPage, totalPages, onPageChange }: Pagination
           onClick={() => onPageChange(page)}
           className={`px-4 py-2 border rounded-md transition-colors ${
             currentPage === page
-              ? 'bg-blue-500 text-white border-blue-500'
+              ? 'bg-black text-white border-black'
               : 'bg-white text-gray-700 hover:bg-gray-100'
           }`}
           aria-current={currentPage === page ? 'page' : undefined}

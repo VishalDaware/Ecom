@@ -56,11 +56,11 @@ export const ProductCard = ({ product }: ProductCardProps) => {
         <div className="mt-auto flex items-baseline gap-2">
           {product.discountPrice ? (
             <>
-              <span className="text-2xl font-extrabold text-blue-600">${product.discountPrice.toFixed(2)}</span>
+              <span className="text-2xl font-extrabold text-black">${product.discountPrice.toFixed(2)}</span>
               <span className="text-md font-semibold text-gray-400 line-through">${product.price.toFixed(2)}</span>
             </>
           ) : (
-            <span className="text-2xl font-extrabold text-blue-600">${product.price.toFixed(2)}</span>
+            <span className="text-2xl font-extrabold text-black">${product.price.toFixed(2)}</span>
           )}
         </div>
       </div>

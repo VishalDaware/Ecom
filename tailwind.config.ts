@@ -10,11 +10,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      // This adds the custom font we discussed earlier
       fontFamily: {
         sans: ['var(--font-inter)', 'sans-serif'],
       },
       backgroundImage: {
+        // Add your custom hero image here
+        'hero-banner': "url('/herobackground.jpg')", 
+        
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",

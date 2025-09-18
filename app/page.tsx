@@ -10,7 +10,7 @@ import { ProductCard } from './components/ProductCard';
 import { Pagination } from './components/Pagination';
 import { mockProducts } from './data/mockProducts';
 import { Product } from './types';
-import { X } from 'lucide-react'; // Import the close icon for the drawer
+import { X, ChevronDown } from 'lucide-react';
 
 export default function HomePage() {
   // --- Master Product List ---
@@ -71,7 +71,7 @@ export default function HomePage() {
   };
   
   return (
-    <div className="bg-white text-gray-800 relative">
+    <div className="bg-gray-50 text-gray-800 relative">
       <Navbar onMenuClick={() => setIsDrawerOpen(true)} />
 
       {/* --- Mobile Drawer and Overlay --- */}
@@ -98,23 +98,35 @@ export default function HomePage() {
         </>
       )}
 
-      {/* Hero Banner Section */}
-      <div className="bg-blue-500 text-white">
-        <div className="container mx-auto px-4 py-8 md:py-16 flex items-center">
-          <div className="w-full md:w-1/2">
-            <h2 className="text-4xl md:text-5xl font-bold leading-tight">Adidas Men Running Sneakers</h2>
-            <p className="my-4 text-lg">Performance and design. Taken right to the edge.</p>
-            <button className="font-bold border-2 border-white py-2 px-6 hover:bg-white hover:text-blue-500 transition-colors duration-300">
-              SHOP NOW
-            </button>
-          </div>
-        </div>
-      </div>
+   {/* --- NEW MODERN HERO BANNER --- */}
+<div 
+  className="relative h-[80vh] flex items-center justify-center text-center bg-cover bg-center bg-[url(/herobackground.jpg)]"
+>
+  {/* CHANGE THIS LINE */}
+  <div className="absolute inset-0 bg-black/50"></div> {/* Dark Overlay */}
+  
+  <div className="relative z-10 text-white p-4">
+    <h2 
+      className="text-5xl md:text-7xl font-extrabold tracking-tight uppercase"
+      style={{ textShadow: '0 4px 8px rgba(0, 0, 0, 0.5)' }}
+    >
+      Adidas Men Running<br/>Sneakers
+    </h2>
+    <p 
+      className="my-6 text-lg md:text-xl max-w-2xl mx-auto font-light"
+      style={{ textShadow: '0 2px 4px rgba(0, 0, 0, 0.5)' }}
+    >
+      Performance and design. Taken right to the edge.
+    </p>
+    <button className="bg-white text-black font-bold py-3 px-8 rounded-lg text-lg hover:bg-gray-200 transition-all duration-300 transform hover:scale-105 shadow-lg">
+      SHOP NOW
+    </button>
+  </div>
+</div>
       
       <main className="container mx-auto px-4 py-12">
         <div className="flex flex-col lg:flex-row gap-8">
           
-          {/* Desktop Sidebar */}
           <div className="hidden lg:block lg:w-1/4">
             <Sidebar
               selectedCategories={selectedCategories}
@@ -124,23 +136,29 @@ export default function HomePage() {
             />
           </div>
 
-          {/* Main Content */}
           <div className="w-full lg:w-3/4">
-            <div className="mb-6 flex flex-col sm:flex-row justify-between items-center p-4 border rounded-md">
-              <p className="text-gray-600 mb-2 sm:mb-0">{filteredAndSortedProducts.length} Items Found</p>
+            <div className="mb-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+              <p className="text-lg text-gray-500">
+                <span className="font-bold text-gray-900">{filteredAndSortedProducts.length}</span> Items Found
+              </p>
               <div className="flex items-center gap-4">
-                <label htmlFor="sort-by" className="text-gray-600">Sort By</label>
-                <select 
-                  id="sort-by" 
-                  className="border rounded-md p-2"
-                  value={sortOption}
-                  onChange={(e) => setSortOption(e.target.value)}
-                >
-                  <option value="name-asc">Name (A-Z)</option>
-                  <option value="name-desc">Name (Z-A)</option>
-                  <option value="price-asc">Price: Low to High</option>
-                  <option value="price-desc">Price: High to Low</option>
-                </select>
+                <label htmlFor="sort-by" className="text-gray-500 font-medium">Sort By</label>
+                <div className="relative">
+                  <select 
+                    id="sort-by" 
+                    className="appearance-none bg-white border border-gray-300 rounded-lg py-2 pl-4 pr-10 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 cursor-pointer"
+                    value={sortOption}
+                    onChange={(e) => setSortOption(e.target.value)}
+                  >
+                    <option value="name-asc">Name (A-Z)</option>
+                    <option value="name-desc">Name (Z-A)</option>
+                    <option value="price-asc">Price: Low to High</option>
+                    <option value="price-desc">Price: High to Low</option>
+                  </select>
+                  <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-3 text-gray-700">
+                    <ChevronDown size={16} />
+                  </div>
+                </div>
               </div>
             </div>
 
