@@ -86,9 +86,9 @@ export default function HomePage() {
       )}
 
 <div 
-  className="relative h-[80vh] flex items-center justify-center text-center bg-cover bg-center bg-[url(/herobackground.jpg)]"
+  className="relative h-[80vh] flex items-center justify-center text-center bg-cover bg-center bg-[url(/background.png)]"
 >
-  <div className="absolute inset-0 bg-black/50"></div>
+  <div className="absolute inset-0 bg-black/70"></div>
   
   <div className="relative z-10 text-white p-4">
     <h2 
