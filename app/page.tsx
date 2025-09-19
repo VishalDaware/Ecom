@@ -1,4 +1,3 @@
-// app/page.tsx
 'use client';
 
 import { useState, useEffect, useMemo } from 'react';
@@ -13,24 +12,13 @@ import { Product } from './types';
 import { X, ChevronDown } from 'lucide-react';
 
 export default function HomePage() {
-  // --- Master Product List ---
   const [products, setProducts] = useState<Product[]>(mockProducts);
-
-  // --- Filter States ---
   const [selectedCategories, setSelectedCategories] = useState<string[]>([]);
   const [selectedColor, setSelectedColor] = useState<string>('');
-
-  // --- Sorting State ---
   const [sortOption, setSortOption] = useState('name-asc');
-
-  // --- Pagination State ---
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 6;
-  
-  // --- Drawer State ---
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
-
-  // --- Derived State (Calculated from other states) ---
   const filteredAndSortedProducts = useMemo(() => {
     let result = [...products];
     if (selectedCategories.length > 0) {
@@ -74,7 +62,6 @@ export default function HomePage() {
     <div className="bg-gray-50 text-gray-800 relative">
       <Navbar onMenuClick={() => setIsDrawerOpen(true)} />
 
-      {/* --- Mobile Drawer and Overlay --- */}
       {isDrawerOpen && (
         <>
           <div 
@@ -98,12 +85,10 @@ export default function HomePage() {
         </>
       )}
 
-   {/* --- NEW MODERN HERO BANNER --- */}
 <div 
   className="relative h-[80vh] flex items-center justify-center text-center bg-cover bg-center bg-[url(/herobackground.jpg)]"
 >
-  {/* CHANGE THIS LINE */}
-  <div className="absolute inset-0 bg-black/50"></div> {/* Dark Overlay */}
+  <div className="absolute inset-0 bg-black/50"></div>
   
   <div className="relative z-10 text-white p-4">
     <h2 
