@@ -28,7 +28,6 @@ export const Sidebar = ({
     setOpenPanels(prev => ({ ...prev, [panel]: !prev[panel] }));
   };
   
-  // Data matching the Figma design
   const hotDeals = [
     { name: 'Nike', count: 2 },
     { name: 'Airmax', count: 48 },

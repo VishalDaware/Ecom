@@ -103,7 +103,7 @@ export default function HomePage() {
     >
       Performance and design. Taken right to the edge.
     </p>
-    <button className="bg-white text-black font-bold py-3 px-8 rounded-lg text-lg hover:bg-gray-200 transition-all duration-300 transform hover:scale-105 shadow-lg">
+    <button className="bg-white text-black font-bold py-3 px-8  text-lg hover:bg-gray-200 transition-all duration-300 transform hover:scale-105 shadow-lg">
       SHOP NOW
     </button>
   </div>
